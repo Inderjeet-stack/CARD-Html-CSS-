@@ -1,0 +1,66 @@
+
+.card
+{
+
+	background: #000;
+	color: white;
+	width: 40%;
+	padding: 40px;
+	margin: auto;
+
+}
+
+h1,p
+{
+	margin-top: 0;
+}
+
+h1
+{
+  font-size: 2rem;
+  margin-bottom: 1.5em; /*  now margin will be 1.5 of 2rem*/
+}
+
+a
+{
+	color:orange;
+	text-decoration:none;
+}
+
+.button
+{
+	display:inline-block;
+	background:yellow;
+	color:black;
+	padding: .5em 1.25em;
+	/* em is relative to font size of this elements.
+	 em used apart from font-size used anywhere like for 
+	 padding,margin,width,height then
+	 em will be relative to font-size its element */
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 30px;
+	
+
+}
+
+.accent-color
+{
+	color: #FFE600;
+}
+
+.btn-big
+{
+	font-size: 1.25rem;
+}
+
+.btn-small
+{
+	font-size: .70rem;
+}
+
+.links
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
